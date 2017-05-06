@@ -14,6 +14,21 @@ var chat = new Chat({
             ]
         }
     ],
+    start: [
+        'Thanks. What else will you like to know about projaro?',
+        {
+            type: 'choose',
+            answers:[{
+                'text': 'The people',
+                'path':'people'
+            },
+            {
+                'text':'The business',
+                'path':'start'
+            }
+            ]
+        }
+    ],
 
     people: [
         'We have two sets of people, which one are you intrested in',
@@ -57,7 +72,7 @@ var chat = new Chat({
             },
             {
                 'text':'I\'d love to know more',
-                'path':'greeting'
+                'path':'start'
             }
             ]
         }
@@ -78,7 +93,7 @@ var chat = new Chat({
             },
             {
                 'text':'I\'d love to know more',
-                'path':'greeting'
+                'path':'start'
             }
             ]
         }
@@ -98,7 +113,7 @@ var chat = new Chat({
             },
             {
                 'text':'I\'d love to know more',
-                'path':'greeting'
+                'path':'start'
             }
             ]
         }
