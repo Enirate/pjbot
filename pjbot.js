@@ -103,6 +103,44 @@ var chat = new Chat({
             ]
         }
        
+    ],
+    'product': [
+        'We build products (internet of things, web apps and mobile apps)  for businesses',
+        'We also help startups to analyse their market in order to build products that customers want.',
+
+        {
+            type:'choose',
+            answers:[{
+                'text':'Thank you',
+                'path':'final'
+            },
+            {
+                'text':'I\'d love to know more about product development',
+                'path':'more_prod'
+            }
+            ]
+        }
+        
+    ],
+    'more_prod': [
+        'Here\'s some products we build recently 1. Jalo mobile app | 2. Meatboutique E-commerce site | 3. Federal Ministry of environment Website.',
+        {
+            type:'choose',
+            answers:[{
+                'text':'Thank you',
+                'path':'final'
+            },
+            {
+                'text':'I\'d like to contact you',
+                'path':'contact'
+            }
+            ]
+        }
+        
+    ],
+    'contact': [
+        'Go to our <a href="https://projaro.com.ng">website</a>',
+        'Or shoot an email to emmanuel@projaro.ng',
     ]
 },
 {
