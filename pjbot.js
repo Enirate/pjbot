@@ -24,7 +24,7 @@ var chat = new Chat({
             },
             {
                 'text':'The business',
-                'path':'start'
+                'path':'business'
             }
             ]
         }
